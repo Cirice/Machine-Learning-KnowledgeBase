@@ -23,3 +23,6 @@
 #### 18. What is Rademacher complexity?
 #### 19. What is VC-dimension?
 #### 20. What are Vector, Vector space and Norm?
+#### 21. What is Kernel trick?
+#### 22. What is Hashing trick?
+#### 23. How do Perceptron algorithm work?
