@@ -6,7 +6,7 @@
 #### 1. What is the main difference between the ordinary algorithms and machine learning algorithms?
 #### 2. What is SVM? how does it work? describe the math behind it.
 #### 3. What are L1 and L2 regularizations?
-#### 4. How do Decision trees algorithm work?
+#### 4. How does Decision trees algorithm work?
 #### 5. What are some major types of machine learning problems?
 #### 6. What is Probably Approximately Correct(or PAC learning framework)?
 #### 7. What are the example applications of machine learning?
@@ -25,4 +25,4 @@
 #### 20. What are Vector, Vector space and Norm?
 #### 21. What is Kernel trick?
 #### 22. What is Hashing trick?
-#### 23. How do Perceptron algorithm work?
+#### 23. How does Perceptron algorithm work?
