@@ -26,3 +26,4 @@
 #### 21. What is Kernel trick?
 #### 22. What is Hashing trick?
 #### 23. How does Perceptron algorithm work?
+#### 24. What is Representation learning?
