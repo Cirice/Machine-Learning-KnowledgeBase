@@ -28,3 +28,4 @@
 #### 23. How does Perceptron algorithm work?
 #### 24. What is Representation learning(or Feature learning)?
 #### 25. How does Principal Component Analysis(PCA) work?
+#### 26. What is Bagging?
