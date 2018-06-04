@@ -1,4 +1,4 @@
-# A collection of ML questions and answers
+# A collection of useful ML questions and answers
 
 ### Questions:
 
@@ -29,3 +29,7 @@
 #### 24. What is Representation learning(or Feature learning)?
 #### 25. How does Principal Component Analysis(PCA) work?
 #### 26. What is Bagging?
+#### 27. What is Feature embedding?
+#### 28. What is Similarity learing?
+#### 29. What is Feature encoding? How Autoencoder neural network work?
+#### 30 Does ML have a limit? What those limits maybe?
