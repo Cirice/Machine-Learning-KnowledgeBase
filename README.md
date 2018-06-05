@@ -33,3 +33,4 @@
 #### 28. What is Similarity learing?
 #### 29. What is Feature encoding? How Autoencoder neural network work?
 #### 30 Does ML have a limit? What those limits maybe?
+#### 31 What does the word naive in the name of Naive Bayes family of algorithms stand for? 
