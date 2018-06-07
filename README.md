@@ -36,4 +36,7 @@
 #### 31 What does the word naive in the name of Naive Bayes family of algorithms stand for?
 #### 32. Describe various strategies to handle an imbalanced dataset, How would you tackle it?
 #### 33. Describe varoius strategies to tune up the hyper-parameters of a particular learning algorithm.
-#### 34. What are some drawbacks of tree based learning algorithms?
+#### 34. What are some general drawbacks of tree based learning algorithms?
+#### 35. WHat are the differences between ordinary Gradient Boosting and XGBOOST?
+#### 36. What is the main difference between Time Series Analysis and Machine Learning?
+#### 37. What is the main difference between Data Mining and Machine Learning? Are they the same?
