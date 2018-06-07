@@ -32,10 +32,10 @@
 #### 27. What is Feature embedding?
 #### 28. What is Similarity learing?
 #### 29. What is Feature encoding? How Autoencoder neural network work?
-#### 30 Does ML have a limit? What those limits maybe?
+#### 30 Does ML have a limit? What those limits may be?
 #### 31 What does the word naive in the name of Naive Bayes family of algorithms stand for?
 #### 32. Describe various strategies to handle an imbalanced dataset, How would you tackle it?
-#### 33. Describe varoius strategies to tune up the hyper-parameters of a particular learning algorithm.
+#### 33. Describe various strategies to tune up the hyper-parameters of a particular learning algorithm in general.
 #### 34. What are some general drawbacks of tree based learning algorithms?
 #### 35. WHat are the differences between ordinary Gradient Boosting and XGBOOST?
 #### 36. What is the main difference between Time Series Analysis and Machine Learning?
