@@ -35,3 +35,5 @@
 #### 30 Does ML have a limit? What those limits maybe?
 #### 31 What does the word naive in the name of Naive Bayes family of algorithms stand for?
 #### 32. Describe various strategies to handle an imbalanced dataset, How would you tackle it?
+#### 33. Describe varoius strategies to tune up the hyper-parameters of a particular learning algorithm.
+#### 34. What are some drawbacks of tree based learning algorithms?
