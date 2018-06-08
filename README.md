@@ -40,3 +40,6 @@
 #### 35. WHat are the differences between ordinary Gradient Boosting and XGBOOST?
 #### 36. What is the main difference between Time Series Analysis and Machine Learning?
 #### 37. What is the main difference between Data Mining and Machine Learning? Are they the same?
+#### 38. What is a Generative learning model?
+#### 39  What is a Discriminative learning model?
+#### 40. What is the difference between Generative and Discriminative models?
