@@ -43,3 +43,9 @@
 #### 38. What is a Generative learning model?
 #### 39  What is a Discriminative learning model?
 #### 40. What is the difference between Generative and Discriminative models?
+#### 41. What is Case-Based Learning?
+#### 42. What is covariance matrix?
+#### 43. What is the difference between correlation and causation?
+#### 44. What is the Curse of Dimensionality? How does it may have hinder the learning process?
+#### 45. How Dimensionality Reduction help improve the performance of the model?
+#### 46. What is Feature Engineering?
