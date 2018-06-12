@@ -49,3 +49,4 @@
 #### 44. What is the Curse of Dimensionality? How does it may have hinder the learning process?
 #### 45. How Dimensionality Reduction help improve the performance of the model?
 #### 46. What is Feature Engineering?
+#### 47. What is Transfer Learning?
