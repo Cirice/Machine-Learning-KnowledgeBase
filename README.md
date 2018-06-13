@@ -51,3 +51,4 @@
 #### 46. What is Feature Engineering?
 #### 47. What is Transfer Learning?
 #### 48. What does (Multi-)Collinearity mean?
+#### 49. Explain Backpropagation, What are some of its shortcomings?
