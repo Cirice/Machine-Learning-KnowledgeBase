@@ -52,3 +52,4 @@
 #### 47. What is Transfer Learning?
 #### 48. What does (Multi-)Collinearity mean?
 #### 49. Explain Backpropagation, What are some of its shortcomings?
+#### 50. How do Boltzmann Machines work?
