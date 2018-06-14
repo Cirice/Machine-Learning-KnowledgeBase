@@ -46,7 +46,7 @@
 #### 41. What is Case-Based Learning?
 #### 42. What is covariance matrix?
 #### 43. What is the difference between correlation and causation?
-#### 44. What is the Curse of Dimensionality? How does it may have hinder the learning process?
+#### 44. What is the Curse of Dimensionality? How does it may hinder the learning process?
 #### 45. How Dimensionality Reduction help improve the performance of the model?
 #### 46. What is Feature Engineering?
 #### 47. What is Transfer Learning?
