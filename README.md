@@ -53,3 +53,4 @@
 #### 48. What does (Multi-)Collinearity mean?
 #### 49. Explain Backpropagation, What are some of its shortcomings?
 #### 50. How do Boltzmann Machines work?
+#### 51. What is the difference between In-sample evaluation and Holdout evaluation of a learning algorithm?
