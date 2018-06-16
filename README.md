@@ -50,7 +50,7 @@
 #### 45. How Dimensionality Reduction help improve the performance of the model?
 #### 46. What is Feature Engineering?
 #### 47. What is Transfer Learning?
-#### 48. What does (Multi-)Collinearity mean?
+#### 48. What do (Multi-)Collinearity, Autocorrelation, Heteroskedasticity and Homoskedasticity mean?
 #### 49. Explain Backpropagation, What are some of its shortcomings?
 #### 50. How do Boltzmann Machines work?
 #### 51. What is the difference between In-sample evaluation and Holdout evaluation of a learning algorithm?
