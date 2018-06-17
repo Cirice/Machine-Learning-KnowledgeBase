@@ -54,3 +54,5 @@
 #### 49. Explain Backpropagation, What are some of its shortcomings?
 #### 50. How do Boltzmann Machines work?
 #### 51. What is the difference between In-sample evaluation and Holdout evaluation of a learning algorithm?
+#### 52. What is Platt Scaling?
+#### 53. What is Monotonic(or Isotoonic) Regression?
