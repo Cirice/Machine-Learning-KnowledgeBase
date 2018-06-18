@@ -56,3 +56,5 @@
 #### 51. What is the difference between In-sample evaluation and Holdout evaluation of a learning algorithm?
 #### 52. What is Platt Scaling?
 #### 53. What is Monotonic(or Isotoonic) Regression?
+#### 54. How BrownBoost algorithm works?
+#### 55. How Multivariate Adaptive Regression Splines(MARS) algorithm works?
