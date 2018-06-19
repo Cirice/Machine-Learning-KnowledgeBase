@@ -58,3 +58,5 @@
 #### 53. What is Monotonic(or Isotoonic) Regression?
 #### 54. How BrownBoost algorithm works?
 #### 55. How Multivariate Adaptive Regression Splines(MARS) algorithm works?
+#### 56. What are K-Fold Cross Validataion and Stripified Cross Validation?
+#### 57. What is K-Scheme (Categorical Feature) Encoding? What are some drawbacks of one-hot categorical feature encoding?
