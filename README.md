@@ -62,3 +62,5 @@
 #### 57. What is K-Scheme (Categorical Feature) Encoding? What are some drawbacks of one-hot categorical feature encoding?
 #### 58. What is Locality Sensitive Hashing(LSH)?
 #### 59. What are the difrerences of Arithmatic, Geometric and Harmonic means?
+#### 58. What is a Stochastic Process?
+#### 59. How Bayesian Optimization work?
