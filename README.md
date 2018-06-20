@@ -60,3 +60,5 @@
 #### 55. How Multivariate Adaptive Regression Splines(MARS) algorithm works?
 #### 56. What are K-Fold Cross Validataion and Stripified Cross Validation?
 #### 57. What is K-Scheme (Categorical Feature) Encoding? What are some drawbacks of one-hot categorical feature encoding?
+#### 58. What is Locality Sensitive Hashing(LSH)?
+#### 59. What are the difrerences of Arithmatic, Geometric and Harmonic means?
