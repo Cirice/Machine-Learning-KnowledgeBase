@@ -64,3 +64,4 @@
 #### 59. What are the difrerences of Arithmatic, Geometric and Harmonic means?
 #### 60. What is a Stochastic Process?
 #### 61. How Bayesian Optimization work?
+#### 62. What is the difference between Bayesian and frequentist approaches?
