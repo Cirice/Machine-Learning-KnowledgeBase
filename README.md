@@ -1,4 +1,4 @@
-# A collection of useful ML questions and answers
+# A collection of useful ML questions(with answers)
 
 ### Questions:
 
@@ -68,5 +68,5 @@
 #### 63. Why sometimes it is needed to Scale or to Normalise features?
 #### 65. What is Singular-Value Decomposition(SVD)? What are some applications of SVD?
 #### 66. Define Eigenvector, Eigenvalue, Hessian Matrix, Gradient
-#### 67. What is a(n Intelligent) Agent?
+#### 67. What is an (Intelligent) Agent?
 #### 68. What is Q-Learning?
