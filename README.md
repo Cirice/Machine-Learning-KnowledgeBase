@@ -71,3 +71,5 @@
 #### 67. What is an (Intelligent) Agent?
 #### 68. What is Q-Learning?
 #### 69. Define Markov Chain and Markov Process
+#### 70. Explain how K-means clustering alorithm works, Why is it so popular?
+#### 71. How Hierchial clustering algorithm works?
