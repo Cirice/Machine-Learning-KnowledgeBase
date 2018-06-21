@@ -70,3 +70,4 @@
 #### 66. Define Eigenvector, Eigenvalue, Hessian Matrix, Gradient
 #### 67. What is an (Intelligent) Agent?
 #### 68. What is Q-Learning?
+#### 69. Define Markov Chain and Markov Process
