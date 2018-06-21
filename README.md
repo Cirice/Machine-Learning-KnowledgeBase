@@ -67,4 +67,4 @@
 #### 62. What is the difference between Bayesian and frequentist approaches?
 #### 63. Why sometimes it is needed to Scale or to Normalise features?
 #### 65. What is Singular-Value Decomposition(SVD)? What are some applications of SVD?
-#### 66. Define Eigenvector, Eigenvalue, Hessian Matrix, Gradient?
+#### 66. Define Eigenvector, Eigenvalue, Hessian Matrix, Gradient
