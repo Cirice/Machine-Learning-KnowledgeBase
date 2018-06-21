@@ -4,7 +4,7 @@
 
 #### 0. What is Bias, what is Variance and what does Bias-Variance trade-off(or decomposition) mean?
 #### 1. What is the main difference between the ordinary algorithms and machine learning algorithms?
-#### 2. What is SVM? how does it work? Explain the math behind it.
+#### 2. What is SVM? how does it work? Explain the math behind it
 #### 3. What are L1 and L2 regularizations? Why we may need regularization?
 #### 4. How does Decision Trees algorithm work?
 #### 5. What are some major types of machine learning problems?
@@ -18,7 +18,7 @@
 #### 13. What is Ensemble Learning?
 #### 14. What is Manifold Learning?
 #### 15. What is Boosting?
-#### 16. What is Stochastic Gradiant Descent? Describe the idea behind it.
+#### 16. What is Stochastic Gradiant Descent? Describe the idea behind it
 #### 17. What is a Statistical Estimator?
 #### 18. What is Rademacher complexity?
 #### 19. What is VC-dimension?
@@ -65,3 +65,6 @@
 #### 60. What is a Stochastic Process?
 #### 61. How Bayesian Optimization work?
 #### 62. What is the difference between Bayesian and frequentist approaches?
+#### 63. Why sometimes it is needed to Scale or to Normalise features?
+#### 65. What is Singular-Value Decomposition(SVD)? What are some applications of SVD?
+#### 66. Define Eigenvector, Eigenvalue, Hessian Matrix
