@@ -73,3 +73,5 @@
 #### 69. Define Markov Chain and Markov Process
 #### 70. Explain how K-means clustering alorithm works, Why is it so popular?
 #### 71. How Hierchial clustering algorithm works?
+#### 72. What is Discriminant Analysis?
+#### 73. What is Multivariate Analysis?
