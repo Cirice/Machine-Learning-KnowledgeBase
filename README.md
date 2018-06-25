@@ -75,3 +75,5 @@
 #### 71. How Hierchial clustering algorithm works?
 #### 72. What is Discriminant Analysis?
 #### 73. What is Multivariate Analysis?
+#### 74. What is the Rank of a matrix?
+
