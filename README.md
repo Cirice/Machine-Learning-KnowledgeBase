@@ -76,4 +76,5 @@
 #### 72. What is Discriminant Analysis?
 #### 73. What is Multivariate Analysis?
 #### 74. What is the Rank of a matrix?
+#### 75. How does Balanced Iterative Reducing and Clustering using Hierarchies(BIRCH) clustering algorithm work?
 
