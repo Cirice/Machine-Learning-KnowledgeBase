@@ -1,4 +1,4 @@
-# A collection of useful ML questions(with answers)
+# A collection of useful ML questions(with answers yet to be added)
 
 ### Questions:
 
