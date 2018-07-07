@@ -79,4 +79,5 @@
 #### 75. How does Balanced Iterative Reducing and Clustering using Hierarchies(BIRCH) algorithm work?
 #### 76. What is a Mixture Model?
 #### 77. How does Machine Learning modeling fare against old-school mathematical modeling like modeling a real-world system via use of differential equations?
+#### 78. How to pick a suitable kernel for SVM?
 
