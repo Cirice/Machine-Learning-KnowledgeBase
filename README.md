@@ -83,3 +83,4 @@
 #### 79. What is Query-Based Learning?
 #### 80. What is Algorithmic Probability?
 #### 81. What are  Occam's Razor and Epicurus' principle of multiple explanations?
+#### 82. What are Filter and Wrapper based feature selection methods?
