@@ -86,3 +86,4 @@
 #### 82. What are Filter and Wrapper based feature selection methods?
 #### 83. What is Graph Embedding? What are some of its applications?
 #### 84. What is Multi-Armed Bandit Problem?
+#### 85. What is Active Learning?
