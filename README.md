@@ -88,3 +88,4 @@
 #### 84. What is Multi-Armed Bandit Problem?
 #### 85. What is Active Learning?
 #### 86. What are Hierarchical Temporal Memory algorithms (HTMs)?
+#### 87. What are Factorization Machines?
