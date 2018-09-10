@@ -24,7 +24,7 @@ have influences the number and types of parameters used to characterize the hypo
 
 The bias-variance trade-off is a central problem in supervised learning. Ideally, 
 one wants to choose a model that both accurately captures the regularities in its training data,
- but also generalizes well to unseen data. Unfortunately, it is typically impossible to do both simultaneously. High-variance learning methods may be able to represent their training set well but are at risk of overfitting to noisy or unrepresentative training data. In contrast, algorithms with low variance typically produce simpler models that don't tend to overfit but may underfit their training data, failing to capture important regularities [Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). 
+ but also generalizes well to unseen data. Unfortunately, it is typically impossible to do both simultaneously. High-variance learning methods may be able to represent their training set well but are at risk of overfitting to noisy or unrepresentative training data. In contrast, algorithms with low variance typically produce simpler models that don't tend to overfit but may underfit their training data, failing to capture important regularities [[Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)]. 
 
 
 #### 1. What is the main difference between the ordinary algorithms and machine learning algorithms?
