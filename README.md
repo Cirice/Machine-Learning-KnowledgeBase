@@ -7,16 +7,24 @@
 This is a concept that is well known in the context of supervised learning where we have some labeled data and we want to estimate an unknown fucntion **c(X)**
 using a fucntion called hypothesis function (**h(X)**).
 
-Consider h(X) ~ c(X) then we have: c(X) = h(X) + bias_error + variance_error + irreducible_error; apart from the third term (e.g. irreducible_error) we can handle the first two types of errors.
-bias_error originates from the biases we make about the characteristics of our models, for example we assume that the repaltionship between input and output is linear (like in linear regression);
-while creating out prediction models we have a subset of all labedled data (training data) and our compass for how good our model is based on its 
-perfromance on this limited set, this creates a problem where the training data set is relatively small because the variance of error on the unseen data (test data) could be huge. In fact we by putting all our effort in improving the 
-training score and lowering training error (we have no other choice!) we are doomed to overfit :( ).
+from Wikipedia definition we have [Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff):
 
-Machine learning algorithms are affected differenly based on their assumtions (bias) about input and output and consequently have different error variances. 
-algorithms that have a high variance are strongly influenced by the characteristics of the training data. This means that the characteristics of the data 
-have influences the number and types of parameters used to characterize the hypothesis function.
+* The bias is an error from erroneous assumptions in the learning algorithm. High bias can cause an algorithm to miss the relevant relations between features and target outputs (underfitting).
+* The variance is an error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data, rather than the intended outputs (overfitting)
 
+Consider h(X) ~ c(X) then we have: c(X) = h(X) + bias error + variance error + irreducible error; apart from the third term (i.e. irreducible error) we can reduce the first two types of errors.
+bias_error originates from the assumptions we make about the characteristics of our models, for example we assume that the repaltionship between input and output is linear (like in linear regression);
+while creating out prediction models, we have a subset of all labedled data (training data) and our guide for knowing how good our model is based on its 
+perfromance on this limited set, this creates a problem where the training data set is relatively small (many real world problems) because the variance of error on the unseen data (test data) could be huge. In fact by putting all our effort in improving the 
+training score and lowering training error (we have no other choice!) we are doomed to overfit :( ). 
+
+Machine learning algorithms are influenced differenly based on their assumtions (bias) about input and output and consequently have different error variances. 
+Algorithms that have a high variance are strongly influenced by the characteristics of the training data. This means that the characteristics of the data 
+have influences the number and types of parameters used to characterize the hypothesis function [https://machinelearningmastery.com](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/). 
+
+The bias-variance tradeoff is a central problem in supervised learning. Ideally, 
+one wants to choose a model that both accurately captures the regularities in its training data,
+ but also generalizes well to unseen data. Unfortunately, it is typically impossible to do both simultaneously. High-variance learning methods may be able to represent their training set well but are at risk of overfitting to noisy or unrepresentative training data. In contrast, algorithms with low variance typically produce simpler models that don't tend to overfit but may underfit their training data, failing to capture important regularities [Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). 
 
 
 #### 1. What is the main difference between the ordinary algorithms and machine learning algorithms?
