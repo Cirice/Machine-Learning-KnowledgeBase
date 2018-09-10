@@ -5,7 +5,7 @@
 #### 0. What is Bias, what is Variance and what is Bias-Variance trade-off?
 
 This is a concept that is well known in the context of supervised learning where we have some labeled data and we want to estimate an unknown function **c(X)**
-using a function called hypothesis function (i.e. **h(X)**).
+using a function with known format and parameters, called hypothesis function (i.e. **h(X)**).
 
 [Wikipedia's](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) definitions for bias and variance are as follows:
 
