@@ -33,15 +33,15 @@ one wants to choose a model that both accurately captures the regularities in it
 #### 5. What are some major types of machine learning problems?
 #### 6. What is Probably Approximately Correct(or PAC learning framework)?
 #### 7. What are the example applications of machine learning?
-#### 8. What are Features, Labels, Training samples, Validation samples, Test samples, Loss function, Hypothes set and Examples?
+#### 8. What are Features, Labels, Training samples, Validation samples, Test samples, Loss function, Hypothesis set and Examples?
 #### 9. What are Overfitting and Underfitting?
 #### 10. What is Cross-validation? how does it help reduce Overfitting?
-#### 11. How much math is involved in the machine learning? what are the pre-requisites of ML?
+#### 11. How much math is involved in the machine learning? what are the prerequisites of ML?
 #### 12. What is Kernel Method(or Kernel Trick)?
 #### 13. What is Ensemble Learning?
 #### 14. What is Manifold Learning?
 #### 15. What is Boosting?
-#### 16. What is Stochastic Gradiant Descent? Describe the idea behind it
+#### 16. What is Stochastic Gradient Descent? Describe the idea behind it
 #### 17. What is a Statistical Estimator?
 #### 18. What is Rademacher complexity?
 #### 19. What is VC-dimension?
@@ -53,21 +53,21 @@ one wants to choose a model that both accurately captures the regularities in it
 #### 25. How does Principal Component Analysis(PCA) work?
 #### 26. What is Bagging?
 #### 27. What is Feature Embedding?
-#### 28. What is Similarity Learing?
-#### 29. What is Feature Encoding? How an Autoencoder Neural Network work?
+#### 28. What is Similarity Learning?
+#### 29. What is Feature Encoding? How an Auto-encoder Neural Network work?
 #### 30 Does ML have any limit? What those limits may be?
 #### 31 What does the word naive in the name of Naive Bayes family of algorithms stand for?
 #### 32. Describe various strategies to handle an imbalanced dataset?
 #### 33. Describe various strategies to tune up the hyper-parameters of a particular learning algorithm in general
 #### 34. What are some general drawbacks of tree based learning algorithms?
-#### 35. WHat are the differences between ordinary Gradient Boosting and XGBOOST?
+#### 35. What are the differences between ordinary Gradient Boosting and XGBOOST?
 #### 36. What is the main difference between Time Series Analysis and Machine Learning?
 #### 37. What is the main difference between Data Mining and Machine Learning? Are they the same?
 #### 38. What is a Generative learning model?
 #### 39  What is a Discriminative learning model?
 #### 40. What is the difference between Generative and Discriminative models?
 #### 41. What is Case-Based Learning?
-#### 42. What is Covariance Matrix?
+#### 42. What is Co-variance Matrix?
 #### 43. What is the difference between Correlation and Causation?
 #### 44. What is the Curse of Dimensionality? How does it may hinder the learning process?
 #### 45. How Dimensionality Reduction help improve the performance of the model?
@@ -81,25 +81,25 @@ one wants to choose a model that both accurately captures the regularities in it
 #### 53. What is Monotonic(or Isotoonic) Regression?
 #### 54. How BrownBoost algorithm works?
 #### 55. How Multivariate Adaptive Regression Splines(MARS) algorithm works?
-#### 56. What are K-Fold Cross Validataion and Stripified Cross Validation?
+#### 56. What are K-Fold Cross Validation and Stratified Cross Validation?
 #### 57. What is K-Scheme (Categorical Feature) Encoding? What are some drawbacks of one-hot categorical feature encoding?
 #### 58. What is Locality Sensitive Hashing(LSH)?
-#### 59. What are the difrerences of Arithmatic, Geometric and Harmonic means?
+#### 59. What are the differences of Arithmetic, Geometric and Harmonic means?
 #### 60. What is a Stochastic Process?
 #### 61. How Bayesian Optimization work?
-#### 62. What is the difference between Bayesian and frequentist approaches?
+#### 62. What is the difference between Bayesian and Frequentist approaches?
 #### 63. Why sometimes it is needed to Scale or to Normalise features?
-#### 65. What is Singular-Value Decomposition(SVD)? What are some applications of SVD?
+#### 65. What is Singular-Value Decomposition (SVD)? What are some applications of SVD?
 #### 66. Define Eigenvector, Eigenvalue, Hessian Matrix, Gradient
 #### 67. What is an (Intelligent) Agent?
 #### 68. What is Q-Learning?
 #### 69. Define Markov Chain and Markov Process
-#### 70. Explain how K-means clustering alorithm works, Why is it so popular?
-#### 71. How Hierchial clustering algorithm works?
+#### 70. Explain how K-means clustering algorithm works, Why is it so popular?
+#### 71. How Hierchical clustering algorithm works?
 #### 72. What is Discriminant Analysis?
 #### 73. What is Multivariate Analysis?
 #### 74. What is the Rank of a matrix?
-#### 75. How does Balanced Iterative Reducing and Clustering using Hierarchies(BIRCH) algorithm work?
+#### 75. How does Balanced Iterative Reducing and Clustering using Hierarchies (BIRCH) algorithm work?
 #### 76. What is a Mixture Model?
 #### 77. How does Machine Learning modeling fare against old-school mathematical modeling such as modeling a real-world system via use of differential equations?
 #### 78. How to pick a suitable kernel for SVM?
@@ -110,8 +110,8 @@ one wants to choose a model that both accurately captures the regularities in it
 #### 83. What is Graph Embedding? What are some of its applications?
 #### 84. What is Multi-Armed Bandit Problem?
 #### 85. What is Active Learning?
-#### 86. What are Hierarchical Temporal Memory algorithms(HTMs)?
+#### 86. What are Hierarchical Temporal Memory algorithms (HTMs)?
 #### 87. What are Factorization Machines?
-#### 88. What are Probabilistic Graphical Models(PGM)?
+#### 88. What are Probabilistic Graphical Models (PGM)?
 #### 89. What is Entity Embedding?
 #### 90. What is Feature Augmentation?
