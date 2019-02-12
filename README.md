@@ -16,7 +16,7 @@ Consider h(X) ~ c(X) then we have: c(X) = h(X) + bias error + variance error + i
 bias_error originates from the assumptions we make about the characteristics of our models, for example we assume that the relationship between input and output is linear (like in linear regression);
 while creating out prediction models, we have a subset of all labeled data (training data) and our guide for knowing how good our model is based on its 
 performance on this limited set, this creates a problem where the training data set is relatively small (many real world problems) because the variance of error on the unseen data (test data) could be huge. In fact by putting all our effort in improving the 
-training score and lowering training error (we have no other choice!) we are doomed to overfit :( ). 
+training score and lowering training error (we have no other choice!) we are doomed to overfit :( ).
 
 Machine learning algorithms are influenced differently based on their assumptions (bias) about input and output and consequently have different error variances. 
 Algorithms that have a high variance are strongly influenced by the characteristics of the training data. This means that the characteristics of the data 
@@ -25,8 +25,12 @@ have influences the number and types of parameters used to characterize the hypo
 The bias-variance trade-off is a central problem in supervised learning. Ideally, 
 one wants to choose a model that both accurately captures the regularities in its training data,
  but also generalizes well to unseen data. Unfortunately, it is typically impossible to do both simultaneously. High-variance learning methods may be able to represent their training set well but are at risk of overfitting to noisy or unrepresentative training data. In contrast, algorithms with low variance typically produce simpler models that don't tend to overfit but may underfit their training data, failing to capture important regularities [[Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)]. 
- 
+
 #### 1. What is the main difference between the ordinary algorithms and machine learning algorithms?
+
+Usually algorithms in Computer Science are analysed based on the size of the input and how much (memory) space they need to run, while this still holds for Machine Learning algorithms there is one more criterion which needs to be answered for ML algorithms, namely, that for ML algorithms there may be a boundary on how many input instances are needed for the learning process to succeed. This is imporatant to consider becasue in practice, in many case there may not be enough number of require samples for the learning process to guarantee the intended results.
+
+
 #### 2. What is SVM? how does it work? Explain the math behind it
 #### 3. What are L1 and L2 regularizations? Why we may need regularization?
 #### 4. How does Decision Trees algorithm work?
