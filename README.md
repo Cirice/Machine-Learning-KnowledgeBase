@@ -49,7 +49,7 @@ Usually algorithms in Computer Science are analysed based on the size of the inp
 #### 20. What are Vector, Vector Space and Norm?
 #### 21. Why Logistic Regression algorithm has the word regression in it?
 #### 22. What is Hashing trick?
-Hashing trick (an analogy to another useful technique called kernel trick) is an efficient method of representing (usually a very huge collection of discrete) features into numerical vectors (called feature vectorizing).
+Hashing trick (an analogy to another useful technique called kernel trick) is an efficient method of representing (usually a very huge collection of discrete) features as numerical vectors (called feature vectorizing).
 
 To understand the main idea behind this method consider this somehow over simplified  example:
 
@@ -91,7 +91,7 @@ As you can see, in our example we represnted two documents containing words (com
 
 Hashing trick is mainly useful method for dimensionality reduction on large datasets because i) it can easily vectorzie complex features (i.e. words or terms in text); ii) it can be very efficient when the feature space is very large and it may not be feasiable to hold everythig into the main memory during the learning or working with the data because we could use smaller arrays and still get a good representation. One of famous use-cases of Hashing trick (also known as Feature hasing) is its successful application to the problem of detecting spam emails by using it to embed each sample into a lower dimension.
 
-There are various startegies for implemeting Hashing trick including the application of different hash functions and use of more complex values instead of just 0 and 1s, you could check out [Wikipedia article on Hashing trick](https://en.wikipedia.org/wiki/Feature_hashing) and [this aticle](https://alex.smola.org/papers/2009/Weinbergeretal09.pdf) for more imformation.
+There are various startegies for implemeting Hashing trick including the application of different hash functions and use of more complex values instead of just 0 and 1s, you could check out [Wikipedia article on Hashing trick](https://en.wikipedia.org/wiki/Feature_hashing) and [this aticle](https://alex.smola.org/papers/2009/Weinbergeretal09.pdf) for more information.
 
 #### 23. How does Perceptron algorithm work?
 #### 24. What is Representation learning(or Feature learning)?
