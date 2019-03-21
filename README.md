@@ -86,7 +86,7 @@ Via this scheme vectotized representation of documents A and B look like this:
 |**A**|1|1|1|1|1|0|0|0|0|0|0|0|
 |**B**|1|1|1|0|1|1|1|1|1|1|1|1|
 
-Hashing trick is useful because a) it can easily vectorzie complex features like words in textual data; b) it can be very efficeient when the feature space is very large and it may not be feasiable to stuff everythig into the main memory during the learning or working with the data.
+Hashing trick is useful because a) it can easily vectorzie complex features like words in textual data; b) it can be very efficeient when the feature space is very large and it may not be feasiable to hold everythig into the main memory during the learning or working with the data.
 In our example we represnted two documents containing words (complex feature set) by two very compact array of bits (**111110000000** for **document A** and **11101111111** for **document B**).
 
 #### 23. How does Perceptron algorithm work?
