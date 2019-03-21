@@ -16,7 +16,7 @@ using a function with known format and parameters, called hypothesis function (i
 Consider h(X) ~ c(X) then we have: c(X) = h(X) + bias error + variance error + irreducible error; apart from the third term (i.e. irreducible error) we can reduce the first two types of errors.
 bias_error originates from the assumptions we make about the characteristics of our models, for example we assume that the relationship between input and output is linear (like in linear regression); while creating out prediction models, we have a subset of all labeled data (training data) and our guide for knowing how good our model is based on its performance on this limited set, this creates a problem where the training data set is relatively small (many real world problems) because the variance of error on the unseen data (test data) could be huge. In fact by putting all our effort in improving the training score and lowering training error (we have no other choice!) we are doomed to overfit :( .
 
-Machine learning algorithms are influenced differently based on their assumptions (bias) about input and output and consequently have different error variances. Algorithms that have a high variance are strongly influenced by the characteristics of the training data. This means that the characteristics of the data have influences the number and types of parameters used to characterize the hypothesis function [[https://machinelearningmastery.com](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/)]. 
+Machine learning algorithms are influenced differently based on their assumptions (bias) about input and output and consequently have different error variances. Algorithms that have a high variance are strongly influenced by the characteristics of the training data. This means that the characteristics of the data have influences the number and types of parameters used to characterize the hypothesis function [[https://machinelearningmastery.com](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/)].
 
 The bias-variance trade-off is a central problem in supervised learning. Ideally, one wants to choose a model that both accurately captures the regularities in its training data, but also generalizes well to unseen data. Unfortunately, it is typically impossible to do both simultaneously. High-variance learning methods may be able to represent their training set well but are at risk of overfitting to noisy or unrepresentative training data. In contrast, algorithms with low variance typically produce simpler models that don't tend to overfit but may underfit their training data, failing to capture important regularities [[Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)]. 
 
@@ -26,6 +26,9 @@ Usually algorithms in Computer Science are analysed based on the size of the inp
 
 
 #### 2. What is SVM? how does it work? Explain the math behind it
+
+
+
 #### 3. What are L1 and L2 regularizations? Why we may need regularization?
 #### 4. How does Decision Trees algorithm work?
 #### 5. What are some major types of machine learning problems?
@@ -118,3 +121,9 @@ Usually algorithms in Computer Science are analysed based on the size of the inp
 #### 93. What is Exceptional Model Mining (EMM)?
 #### 94. What is Rejection Sampling?
 #### 95. What is (Sparse) Dictionary Learning?
+#### 96. What is Bonferroni’s Principle?
+Informally, Bonferroni’s principle states that given a rather huge collection of samples representing a set of events, you can calculate the excpected number of occurences for each distinct event in the dataset assuming events are happeing totally in random, now if the calculated expexted number of a particular event is very larger than the actual number of occurences that you hope to find you can be very much assured that you find many bogus or invalid events (events that can be like what you are looking for but are observed only due to possible underlying randomness in the dataset).
+
+This is very good example of a practical Data Mining problem, the main idea is when you try to detect a rare event in a huge dataset you could easily be tricked into falsely beliveing that you have identified many more number of that paricular event than actually there are present in the dataset!.
+
+You can find more information in [Mining of Massive Datasets](http://mmds.org/) about the Bonferroni’s principle.
