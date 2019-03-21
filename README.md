@@ -78,9 +78,9 @@ For example our hash function looks like something like this:
 |    writing    |  11      |
 |    here    |      12  |
 
-Now if we hash each word (ignoring the punctuations and space character) from document A and document B using our hash function and use the output integer as the index for the array we can represent two documents as two same-sized bit-arrays (these arrays are having only 0 and 1s as values):
+Now if we hash each word (ignoring the punctuations and space character) from document A and document B using our hash function and use the output integer as the index for the array we can represent two documents as two same-sized bit-arrays (these arrays are having only 0 and 1s as values). If a word is present in the docuemnt we put 1 into the array cell with the coresponding index for that word and 0 otherwise.
 
-Via this scheme vectotized representation of documents A and B would look like this:
+Via application of this scheme vectotized representation of documents A and B would look like this:
 
 |Document| index 1 | index 2 | index 3 | index 4 | index 5 | index 6 | index 7 | index 8 | index 9 | index 10 | index 11 | index 12 |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
