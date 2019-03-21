@@ -122,8 +122,9 @@ Usually algorithms in Computer Science are analysed based on the size of the inp
 #### 94. What is Rejection Sampling?
 #### 95. What is (Sparse) Dictionary Learning?
 #### 96. What is Bonferroni’s Principle?
-Informally, Bonferroni’s principle states that given a rather huge collection of samples representing a set of events, you can calculate the excpected number of occurences for each distinct event in the dataset assuming events are happeing totally in random, now if the calculated expexted number of a particular event is very larger than the actual number of occurences that you hope to find you can be very much assured that you find many bogus or invalid events (events that can be like what you are looking for but are observed only due to possible underlying randomness in the dataset).
+Informally, Bonferroni’s principle states that given a rather huge collection of samples representing a set of events, you can calculate the excpected number of occurences for each distinct event in the dataset assuming events are happeing totally in random, now if the calculated expexted number of a particular event is very larger than the actual number of occurences that you hope to find you can be very much assured that you find many bogus or invalid events (events that can be like what you are looking for but are observed only due to possible existence of underlying randomness in the dataset).
 
-This is very good example of a practical Data Mining problem, the main idea is when you try to detect a rare event in a huge dataset you could easily be tricked into falsely beliveing that you have identified many more number of that paricular event than actually there are present in the dataset!.
+This is a very good example of a practical Data Mining problem, the main idea is when you try to detect a rare event in a huge dataset you could easily be tricked into falsely beliveing that you have identified many more number of that paricular event than actually there are present in the dataset.
+Bonferroni’s principle helps us to be aware that sometimes we have to search only for very rare events that are very much unlikely to happen in the random data in order to be confident that there aren't!
 
 You can find more information in [Mining of Massive Datasets](http://mmds.org/) about the Bonferroni’s principle.
