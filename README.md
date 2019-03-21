@@ -49,6 +49,46 @@ Usually algorithms in Computer Science are analysed based on the size of the inp
 #### 20. What are Vector, Vector Space and Norm?
 #### 21. Why Logistic Regression algorithm has the word regression in it?
 #### 22. What is Hashing trick?
+Hashing trick (an analogy to another useful technique called kernel trick) is an efficient method of representing (usually a very huge collection of discrete) features into numerical vectors (called feature vectorizing).
+
+To understand how it works consider this (somehow over simplified) example:
+Assume we have two document samples called document A and document B containg a few word each:
+
+|  Document A |  Document B |
+|--------|--------|
+|   This is a short sentence.     |    This is a kinda longer sentence that I am writing here.     |
+
+Now we need a hash function and an array for each data sample, our hash function maps the input string into an integer ranging from 1 to the size of the array.
+
+For example our hash function looks like something like this:
+
+| Input word | Output |
+|--------|--------|
+|     This   |  1      |
+|    is    |     2   |
+|      a  |       3 |
+|       short |    4    |
+|    sentence    |  5      |
+|    kinda    |      6  |
+|   longer     |      7  |
+|    that    |    8    |
+|     I   |     9   |
+|      am  |     10   |
+|    writing    |  11      |
+|    here    |      12  |
+
+Now if we hash each word (ignoring the punctuations and space character) from document A and document B using our hash function and use the output integer as the index for the array we can represent two documents as two bit arrays (array containg only 0 and 1s as values):
+
+Via this scheme vectotized representation of documents A and B look like this:
+
+|Document| index 1 | index 2 | index 3 | index 4 | index 5 | index 6 | index 7 | index 8 | index 9 | index 10 | index 11 | index 12 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------||--------|--------|--------|--------|
+|**A**|1|1|1|1|1|0|0|0|0|0|0|0|
+|**B**|1|1|1|0|1|1|1|1|1|1|1|1|
+
+Hashing trick is useful because a) it can easily vectorzie complex features like words in textual data; b) it can be very efficeient when the feature space is very large and it may not be feasiable to stuff everythig into the main memory during the learning or working with the data.
+In our example we represnted two documents containing words (complex feature set) by two very compact array of bits (**111110000000** for **document A** and **11101111111** for **document B**).
+
 #### 23. How does Perceptron algorithm work?
 #### 24. What is Representation learning(or Feature learning)?
 #### 25. How does Principal Component Analysis(PCA) work?
