@@ -51,8 +51,9 @@ Usually algorithms in Computer Science are analysed based on the size of the inp
 #### 22. What is Hashing trick?
 Hashing trick (an analogy to another useful technique called kernel trick) is an efficient method of representing (usually a very huge collection of discrete) features into numerical vectors (called feature vectorizing).
 
-To understand how it works consider this (somehow over simplified) example:
-Assume we have two document samples called document A and document B containg a few word each:
+To understand the main idea behind this method consider this somehow over simplified  example:
+
+Assume we have two document samples called document A and document B containing a few word each:
 
 |  Document A |  Document B |
 |--------|--------|
@@ -77,7 +78,7 @@ For example our hash function looks like something like this:
 |    writing    |  11      |
 |    here    |      12  |
 
-Now if we hash each word (ignoring the punctuations and space character) from document A and document B using our hash function and use the output integer as the index for the array we can represent two documents as two bit arrays (array containg only 0 and 1s as values):
+Now if we hash each word (ignoring the punctuations and space character) from document A and document B using our hash function and use the output integer as the index for the array we can represent two documents as two same-sized bit-arrays (these arrays are having only 0 and 1s as values):
 
 Via this scheme vectotized representation of documents A and B would look like this:
 
@@ -88,7 +89,7 @@ Via this scheme vectotized representation of documents A and B would look like t
 
 As you can see, in our example we represnted two documents containing words (complex feature set) by two very compact array of bits (111110000000 for document A and 11101111111 for document B) which each only need 12 bits to represent each docuemnt.
 
-Hashing trick is mainly useful because i) it can easily vectorzie complex features (i.e. words or terms in text); ii) it can be very efficient when the feature space is very large and it may not be feasiable to hold everythig into the main memory during the learning or working with the data because we could use smaller sized array sizes and still get a good representation.
+Hashing trick is mainly useful method for dimensionality reduction on large datasets because i) it can easily vectorzie complex features (i.e. words or terms in text); ii) it can be very efficient when the feature space is very large and it may not be feasiable to hold everythig into the main memory during the learning or working with the data because we could use smaller arrays and still get a good representation. One of famous use-cases of Hashing trick (also known as Feature hasing) is its successful application to the problem of detecting spam emails by using it to embed each sample into a lower dimension.
 
 There are various startegies for implemeting Hashing trick including the application of different hash functions and use of more complex values instead of just 0 and 1s, you could check out [Wikipedia article on Hashing trick](https://en.wikipedia.org/wiki/Feature_hashing) and [this aticle](https://alex.smola.org/papers/2009/Weinbergeretal09.pdf) for more imformation.
 
