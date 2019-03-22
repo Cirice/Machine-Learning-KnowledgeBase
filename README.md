@@ -22,7 +22,7 @@ The bias-variance trade-off is a central problem in supervised learning. Ideally
 
 #### 1. What is the main difference between the ordinary algorithms and machine learning algorithms?
 
-Usually algorithms in Computer Science are analysed based on the size of the input and how much (memory) space they need to run, while this still holds for Machine Learning algorithms there is one more criterion which needs to be answered for ML algorithms, namely, that for ML algorithms there may be a boundary on how many input instances are needed for the learning process to succeed. This is imporatant to consider becasue in practice, in many case there may not be enough number of required samples for the learning process to guarantee the intended results.
+Usually algorithms in Computer Science are analyzed based on the size of the input and how much (memory) space they need to run, while this still holds for Machine Learning algorithms there is one more criterion which needs to be answered for ML algorithms, namely, that for ML algorithms there may be a boundary on how many input instances are needed for the learning process to succeed. This is important to consider because in practice, in many case there may not be enough number of required samples for the learning process to guarantee the intended results.
 
 
 #### 2. What is SVM? how does it work? Explain the math behind it
@@ -78,7 +78,7 @@ For example our hash function looks like something like this:
 |    writing    |  11      |
 |    here    |      12  |
 
-Now if we hash each word (ignoring the punctuations and space character) from document A and document B using our hash function and use the output integer as the index for the array we can represent two documents as two same-sized bit-arrays (these arrays are having only 0 and 1s as values). If a word is present in the docuemnt we put 1 into the array cell with the coresponding index for that word and 0 otherwise.
+Now if we hash each word (ignoring the punctuation and space character) from document A and document B using our hash function and use the output integer as the index for the array we can represent two documents as two same-sized bit-arrays (these arrays are having only 0 and 1s as values). If a word is present in the document we put 1 into the array cell with the corresponding index for that word and 0 otherwise.
 
 Via application of this scheme vectotized representation of documents A and B would look like this:
 
@@ -87,11 +87,11 @@ Via application of this scheme vectotized representation of documents A and B wo
 |**A**|1|1|1|1|1|0|0|0|0|0|0|0|
 |**B**|1|1|1|0|1|1|1|1|1|1|1|1|
 
-As you can see, in our example we represnted two documents containing words (complex feature set) by two very compact array of bits (111110000000 for document A and 11101111111 for document B) which each only need 12 bits to represent each docuemnt.
+As you can see, in our example we represented two documents containing words (complex feature set) by two very compact array of bits (111110000000 for document A and 11101111111 for document B) which each only need 12 bits to represent each document.
 
-Hashing trick is mainly useful method for dimensionality reduction on large datasets because i) it can easily vectorzie complex features (i.e. words or terms in text); ii) it can be very efficient when the feature space is very large and it may not be feasiable to hold everythig into the main memory during the learning or working with the data because we could use smaller arrays and still get a good representation. One of famous use-cases of Hashing trick (also known as Feature hasing) is its successful application to the problem of detecting spam emails by using it to embed each sample into a lower dimension.
+Hashing trick is mainly useful method for dimensionality reduction on large datasets because i) it can easily vectorize complex features (i.e. words or terms in text); ii) it can be very efficient when the feature space is very large and it may not be feasible to hold everything into the main memory during the learning or working with the data because we could use smaller arrays and still get a good representation. One of famous use-cases of Hashing trick (also known as Feature hashing) is its successful application to the problem of detecting spam emails by using it to embed each sample into a lower dimension.
 
-There are various startegies for implemeting Hashing trick including the application of different hash functions and use of more complex values instead of just 0 and 1s, you could check out [Wikipedia article on Hashing trick](https://en.wikipedia.org/wiki/Feature_hashing) and [this aticle](https://alex.smola.org/papers/2009/Weinbergeretal09.pdf) for more information.
+There are various strategies for implementing Hashing trick including the application of different hash functions and use of more complex values instead of just 0 and 1s, you could check out [Wikipedia article on Hashing trick](https://en.wikipedia.org/wiki/Feature_hashing) and [this aticle](https://alex.smola.org/papers/2009/Weinbergeretal09.pdf) for more information.
 
 #### 23. How does Perceptron algorithm work?
 #### 24. What is Representation learning(or Feature learning)?
@@ -166,9 +166,9 @@ There are various startegies for implemeting Hashing trick including the applica
 #### 94. What is Rejection Sampling?
 #### 95. What is (Sparse) Dictionary Learning?
 #### 96. What is Bonferroni’s Principle?
-Informally, Bonferroni’s principle states that given a rather huge collection of samples representing a set of events, you can calculate the excpected number of occurences for each distinct event in the dataset assuming events are happeing totally in random, now if the calculated expexted number of a particular event is very larger than the actual number of occurences that you hope to find you can be very much assured that you find many bogus or invalid events (events that can be like what you are looking for but are observed only due to possible existence of underlying randomness in the dataset).
+Informally, Bonferroni’s principle states that given a rather huge collection of samples representing a set of events, you can calculate the expected number of occurrences for each distinct event in the dataset assuming events are happening totally in random, now if the calculated expected number of a particular event is very larger than the actual number of occurrences that you hope to find you can be very much assured that you find many bogus or invalid events (events that can be like what you are looking for but are observed only due to possible existence of underlying randomness in the dataset).
 
-This is a very good example of a practical Data Mining problem, the main idea is when you try to detect a rare event in a huge dataset you could easily be tricked into falsely beliveing that you have identified many more number of that paricular event than actually there are present in the dataset.
+This is a very good example of a practical Data Mining problem, the main idea is when you try to detect a rare event in a huge dataset you could easily be tricked into falsely believing that you have identified many more number of that particular event than actually there are present in the dataset.
 Bonferroni’s principle helps us to be aware that sometimes we have to search only for very rare events that are very much unlikely to happen in the random data in order to be confident that there aren't!
 
 You can find more information in [Mining of Massive Datasets](http://mmds.org/) about the Bonferroni’s principle.
