@@ -123,7 +123,7 @@ There are various strategies for implementing Hashing trick including the applic
 #### 50. How do Boltzmann Machines work?
 #### 51. What is the difference between In-sample evaluation and Holdout evaluation of a learning algorithm?
 #### 52. What is Platt Scaling?
-#### 53. What is Monotonic(or Isotoonic) Regression?
+#### 53. What is Monotonic(or Isotonic) Regression?
 #### 54. How BrownBoost algorithm works?
 #### 55. How Multivariate Adaptive Regression Splines(MARS) algorithm works?
 #### 56. What are K-Fold Cross Validation and Stratified Cross Validation?
@@ -163,9 +163,9 @@ There are various strategies for implementing Hashing trick including the applic
 #### 91. What is Negative Sub-Sampling?
 #### 92. What is a Tensor?
 
-A tensor is a high dimensional array (3 or more dimensions; actually scalars, 1-dimensional arrays, and matrices are considered low order tensors - order in here means the number of dimentions an array has) of numerical values, in another word, tensors are generalization of matrices so that usual Lineal Algebraic rules and operations that are applicatble to simple arrays and matrices could be used for working in higher dimensions.
+A tensor is a high dimensional array (3 or more dimensions; actually scalars, 1-dimensional arrays, and matrices are considered low order tensors - order in here means the number of dimensions an array has) of numerical values, in another word, tensors are generalization of matrices so that usual Lineal Algebraic rules and operations that are applicable to simple arrays and matrices could be used for working in higher dimensions.
 
-Tensors were introduced early on 20th century but did not receive much attention in Computer Science until recently. Tensor are relatively low level mathematical objects (much like 1-dimensional arrays and matrices), [this article](https://arxiv.org/pdf/1711.10781) contains a self-contained and thoughrough introduction to some applications of tensors that demonstrates their various useful use-cases in various setups (from finding unique matrix decompositions more easily to learning on a generative latent or hidden variable model via use of tensor decomposition techniques).
+Tensors were introduced early on 20th century but did not receive much attention in Computer Science until recently. Tensor are relatively low level mathematical objects (much like 1-dimensional arrays and matrices), [this article](https://arxiv.org/pdf/1711.10781) contains a self-contained and thorough introduction to some applications of tensors that demonstrates their various useful use-cases in various setups (from finding unique matrix decompositions more easily to learning on a generative latent or hidden variable model via use of tensor decomposition techniques).
 
 
 #### 93. What is Exceptional Model Mining (EMM)?
