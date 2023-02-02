@@ -2,35 +2,67 @@
 
 ### Questions:
 
-#### 0. What is bias, what is variance and what does Bias-Variance trade-off(or decomposition) mean?
+#### 0. What is bias, what is variance, and what does bias-variance trade-off (or decomposition) mean?
 
-This is a concept that is well known in the context of supervised learning where we have some labelled data, and we want to estimate an unknown function **c(X)**
-using a function with known format and parameters, called hypothesis function (i.e. **h(X)**).
+This is a concept that is well known in the context of supervised learning where we have some labelled data, and we want to estimate an unknown function $c(X)$
+using a function with known format and parameters, called hypothesis function (i.e., $h(X)$).
 
 [Wikipedia's](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) definitions for bias and variance are as follows:
 
 * The bias is an error from erroneous assumptions in the learning algorithm. High bias can cause an algorithm to miss the relevant relations between features and target outputs (underfitting).
 
-* The variance is an error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data, rather than the intended outputs (overfitting)
+* The variance is an error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data rather than the intended outputs (overfitting)
 
-Consider h(X) ~ c(X) then we have: c(X) = h(X) + bias error + variance error + irreducible error; apart from the third term (i.e. irreducible error) we can reduce the first two types of errors.
-bias_error originates from the assumptions we make about the characteristics of our models, for example, we assume that the relationship between input and output is linear (like in linear regression); while creating out prediction models, we have a subset of all labelled data (training data) and our guide for knowing how good our model is based on its performance on this limited set, this creates a problem where the training data set is relatively small (many real-world problems) because the variance of an error on the unseen data (test data) could be huge. In fact, by putting all our effort into improving the training score and lowering training error (we have no other choice!), we are doomed to overfit. :(
+Consider $h(X)$ ~ $c(X)$. Then we have $c(X)$ = $h(X)$ + bias error + variance error + irreducible error; apart from the third term (i.e. irreducible error), we can reduce the first two types of errors.
+bias_error originates from the assumptions we make about the characteristics of our models. For example, we assume that the relationship between input and output is linear (like in linear regression); while creating our prediction models, we have a subset of all labelled data (training data) and our guide for knowing how good our model is based on its performance on this limited set, this creates a problem where the training data set is relatively small (many real-world problems) because the variance of an error on the unseen data (test data) could be huge. In fact, by putting all our effort into improving the training score and lowering training error (we have no other choice!), we are doomed to overfit. :(
 
-Machine learning algorithms are influenced differently based on their assumptions (bias) about input and output and consequently have different error variances. Algorithms that have a high variance are strongly influenced by the characteristics of the training data. This means that the characteristics of the data have influenced the number and types of parameters used to characterise the hypothesis function [[https://machinelearningmastery.com](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/)].
+Machine learning algorithms are influenced differently based on their assumptions (bias) about input and output and consequently have different error variances. The characteristics of the training data strongly influence algorithms that have a high variance. This means that the characteristics of the data have influenced the number and types of parameters used to characterise the hypothesis function [[https://machinelearningmastery.com](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/)].
 
-The bias-variance trade-off is a central problem in supervised learning. Ideally, one wants to choose a model that both accurately captures the regularities in its training data, but also generalises well to unseen data. Unfortunately, it is typically impossible to do both simultaneously. High-variance learning methods may be able to represent their training set well but are at risk of overfitting to noisy or unrepresentative training data. In contrast, algorithms with low variance typically produce simpler models that don't tend to overfit but may underfit their training data, failing to capture important regularities [[Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)]. 
+The bias-variance trade-off is a central problem in supervised learning. Ideally, one wants to choose a model that accurately captures the regularities in its training data and generalises well to unseen data. Unfortunately, it is typically impossible to do both simultaneously. High-variance learning methods may be able to represent their training set well but are at risk of overfitting to noisy or unrepresentative training data. In contrast, algorithms with low variance typically produce simpler models that don't tend to overfit but may underfit their training data, failing to capture important regularities [[Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)]. 
 
 #### 1. What is the main difference between ordinary algorithms and machine learning algorithms?
 
-Usually, algorithms in Computer Science are analysed based on the size of the input and how much (memory) space they need to run. At the same time, this still holds for Machine Learning algorithms there is one more criterion which needs to be answered for ML algorithms, namely, that for ML algorithms there may be a boundary on how many input instances are needed for the learning process to succeed. This is important to consider because in practice, in any case, there may not be enough number of required samples for the learning process to guarantee the intended results.
+Usually, algorithms in Computer Science are analysed based on the size of the input and how much (memory) space they need to run. At the same time, this still holds for Machine Learning algorithms; there is one more criterion which needs to be answered for ML algorithms, namely, that for ML algorithms, there may be a boundary on how many input instances are necessary for the learning process to succeed. This is important to consider because, in practice, there may not be enough needed samples for the learning process to guarantee the intended results.
 
 
 #### 2. What is SVM? How does it work? Explain the math behind it
 
+SVM (Support Vector Machine) is a supervised machine learning algorithm for classification and regression analysis. The goal of the SVM algorithm is to find the best line (or hyperplane) that can split the data into two classes in a multi-class classification problem.
 
+The math behind SVM involves finding the optimal hyperplane that maximises the margin between the classes, meaning it has the largest distance between the nearest data points of each class. These nearest data points are support vectors and play a crucial role in defining the optimal hyperplane.
+
+Mathematically, the SVM algorithm tries to find the hyperplane that maximises the following objective function:
+
+$\frac{1}{\left | w \right |} \left[ \text{Margin} \right] = \frac{1}{\left | w \right |} \min_{n} \left[ t_{n}(\left \langle w,x_{n} \right \rangle - b) \right] $
+
+where w is the normal vector to the hyperplane and b is the bias term. The term tn represents the class label (-1 or 1) of the data point xn. The function returns the maximum margin, which is the distance between the hyperplane and the nearest data points.
+
+In summary, SVM works by finding the hyperplane with the maximum margin that separates the classes, and the margin is defined by the support vectors which are the nearest data points to the hyperplane.
 
 #### 3. What are L1 and L2 regularisations? Why we may need regularisation?
-#### 4. How does the Decision Trees algorithm work?
+
+L1 and L2 regularisation are methods to prevent overfitting in machine learning models by adding a penalty term to the loss function.
+
+L1 regularisation, also known as Lasso, adds the absolute value of the coefficients as a penalty term to the loss function. This results in some coefficients being exactly equal to zero, effectively performing feature selection.
+
+L2 regularisation, also known as Ridge Regression, adds the squared values of the coefficients as a penalty term to the loss function. This has the effect of shrinking the coefficients towards zero, but unlike L1 regularisation, it does not result in any coefficients being exactly equal to zero.
+
+Regularisation is necessary in many cases because it helps to prevent overfitting. Overfitting occurs when a model fits the training data too well and becomes overly complex, capturing the noise and random fluctuations in the data rather than the underlying patterns. This results in poor generalisation performance on unseen data.
+
+Regularisation helps to avoid overfitting by adding a penalty term to the loss function that discourages the model from assigning too much importance to any one feature. This forces the model to strike a balance between fitting the training data well and having a simple, generalisable structure.
+
+#### 4. How does the decision tree algorithm work?
+
+Decision Trees is a tree-based algorithm used for both classification and regression tasks. It works by recursively partitioning the data into smaller subsets based on the values of the features, with the goal of producing subsets that contain samples that belong to the same class or have similar target values.
+
+The algorithm starts at the root of the tree and selects a feature to split the data based on some criterion, such as information gain or gini impurity. The samples are then divided into branches based on the values of the selected feature, and this process is repeated at each internal node of the tree until a stopping condition is reached.
+
+For example, in a binary classification problem, if a certain feature is selected at a node, the samples are divided into two branches: one for samples with values below a certain threshold and another for samples with values above the threshold. This process continues until a node contains samples of only one class, or until a predetermined maximum depth is reached.
+
+The final result of the Decision Trees algorithm is a tree-like model that can be used to make predictions for new data points. To make a prediction, the algorithm follows a path through the tree based on the values of the features in the sample, until it reaches a leaf node. The prediction is then the class label or target value associated with that leaf node.
+
+In summary, Decision Trees works by recursively dividing the data into smaller subsets based on feature values, with the goal of creating nodes that contain samples with the same class label or target value. The final result is a tree-like model that can be used for making predictions.
+
 #### 5. What are some major types of machine learning problems?
 #### 6. What is Probably Approximately Correct(or PAC learning framework)?
 #### 7. What are the example applications of machine learning?
